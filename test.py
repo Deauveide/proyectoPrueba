@@ -4,8 +4,13 @@ def mcd(a, b):
     Dos numeros como entrada y el mcd de ambos como salida.
     """
     resto = 0
-        while (b > 0):
-            resto = b
-            b = a % b
-            a = resto
-        return a
+    while (b > 0):
+        resto = b
+        b = a % b
+        a = resto
+    return a
+
+num1 = int(input("Introduce el primer numero: "))
+num2 = int(input("Introduce el segundo numero: "))
+
+print("El máximo común divisor de ", num1, " y ", num2, " es ", mcd(num1, num2))
