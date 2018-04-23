@@ -4,6 +4,8 @@ def suma(a, b):
     """
     c = a + b
     return c
+
+
 num1 = int(input("Ingrese primer numero"))
 num2 = int(input("Ingrese segundo numero"))
-print()
+print("La suma de", num1, "y", num2, "es", suma(num1, num2))
