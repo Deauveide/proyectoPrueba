@@ -13,5 +13,6 @@ def mcd(a, b):
 
 num1 = int(input("Introduce el primer numero: "))
 num2 = int(input("Introduce el segundo numero: "))
+num3 = int(input("Introduce el tercer numero: "))
 
 print("El máximo común divisor de ", num1, " y ", num2, " es ", mcd(num1, num2))
