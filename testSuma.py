@@ -2,8 +2,7 @@ def suma(a, b):
     """
     Funcion que suma las entradas a y b y da su salida por consola
     """
-    c = a + b
-    return c
+    return a + b
 
 
 num1 = int(input("Ingrese primer numero"))
